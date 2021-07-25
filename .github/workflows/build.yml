@@ -7,6 +7,15 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: zmkfirmware/zmk-build-arm:2.5
+    strategy:
+      matrix:
+        board:
+          - nice_nano
+        shield:
+          - nice_v2
+        include:
+          - board: nice_nano
+            shield: nice_v2
     name: Build
     steps:
       - name: Checkout
