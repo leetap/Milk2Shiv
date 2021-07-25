@@ -43,7 +43,7 @@ jobs:
       - name: West Zephyr export
         run: west zephyr-export
       - name: West Build (RoMac)
-        run: west build -s zmk/app -b nice_nano_v2 -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
+        run: west build -s zmk/app -b nice_nano_v2 -- -DSHIELD=milk_v2 -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
       - name: RoMac DTS File
         if: ${{ always() }}
         run: cat -n build/zephyr/nice_nano_v2.dts.pre.tmp
