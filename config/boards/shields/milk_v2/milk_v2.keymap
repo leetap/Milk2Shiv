@@ -7,11 +7,11 @@
 
         default_layer {
 // -----------
-// |   F23   |
-// |   F24   |
+// |   F   |
+// |   K  |
             bindings = <
-    &kp F23
-    &kp K_MUTE
+    &kp F
+    &kp K
             >;
         };
     };
