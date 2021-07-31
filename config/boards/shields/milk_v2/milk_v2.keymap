@@ -24,6 +24,7 @@
             >;
         };
     };
+};
 / {
     combos {
       compatible = "zmk,combos";
