@@ -30,4 +30,6 @@
         timeout-ms = <50>;
         key-positions = <0 1>;
         bindings = <&tog RGB>;
+        };
+      };
 };
