@@ -25,8 +25,8 @@
         };
         rgb_layer {
           bindings = <
-            &kp RGB_EFF
-            &kp RGB_TOG
+            &rgb_ug RGB_EFF
+            &rgb_ug RGB_TOG
             >;
         };
     };
