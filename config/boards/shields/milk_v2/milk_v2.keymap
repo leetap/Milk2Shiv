@@ -8,10 +8,10 @@
         default_layer {
 // -----------
 // |   F24   |
-// |   MUTE  |
+// |   Play/Pause  |
             bindings = <
+    &kp C_PP
     &kp F24
-    &kp K_MUTE
             >;
         };
     };
